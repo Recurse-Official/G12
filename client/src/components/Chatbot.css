@@ -1,0 +1,141 @@
+.chatbot-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .previous-chats {
+    width: 25%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .previous-chats h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .previous-chats ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .previous-chats li {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+  }
+  
+  .chat-main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mic-circle-container {
+    margin-bottom: 20px;
+  }
+  
+  .mic-circle {
+    width: 120px;
+    height: 120px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mic-circle.active {
+    background-color: #ff5733; /* Change to red when active */
+  }
+  
+  .conversation-box {
+    width: 80%;
+    height: 300px;
+    overflow-y: auto;
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .user-message {
+    background-color: #dfffd6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .bot-message {
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .chat-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .send-button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .mic-button,
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mic-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  .end-chat-button-container {
+    margin-top: 20px;
+  }
+  
+  .end-chat-button {
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
