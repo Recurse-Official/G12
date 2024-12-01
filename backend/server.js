@@ -3,7 +3,8 @@ const dotenv = require("dotenv");
 const bodyParser = require("body-parser");
 const connectDB = require("./config/db");
 const cors = require("cors");
-const chatbotRoutes = require("./chatbotController");
+const chatbotRoutes = require('./controllers/cbc'); 
+
 
 dotenv.config();
 
